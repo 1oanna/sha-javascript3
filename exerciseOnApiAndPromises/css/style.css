@@ -1,0 +1,49 @@
+html,body {
+	margin:0; padding:0;
+	background: #29c2f4;
+	font-family: Arial, Helvetica, sans;
+	color: #2840f4;
+}
+
+.wrapper {
+	max-width: 75rem;
+	margin:0 auto;
+}
+h1 {
+	color: #2840f4;
+	padding: 1rem;
+	text-align: center;
+}
+
+#authors{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	padding: 1rem;
+
+}
+
+.authorss{
+	box-sizing: border-box;
+	width: 22%;
+	padding: 10px;
+	border: 1px solid #a814e2;
+	margin: 10px;
+}
+
+.avatar{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 5rem;
+	
+}
+
+.authorName{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	
+}
