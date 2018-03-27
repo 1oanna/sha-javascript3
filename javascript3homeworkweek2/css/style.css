@@ -1,0 +1,60 @@
+html,body {
+	margin:0; padding:0;
+	background: rgb(141, 206, 37);
+	font-family: Arial, Helvetica, sans;
+	color: #0c77d6;
+}
+
+.githubView {
+	max-width: 75rem;
+	margin:0 auto;
+}
+
+.githubView .userDetails { 
+	text-align: center;
+ }
+
+.githubView .repos {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.githubView .repos .repo {
+	box-sizing: border-box;
+	width: 22%;
+	padding: 10px;
+	border: 1px solid #a814e2;
+	margin: 10px;
+}
+
+.githubView .repos .repo .name {
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.githubView .repos .repo .details {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	border-top: 1px dotted #a814e2;
+	padding-top: 5px;
+}
+
+.githubView .repos .repo .forks {
+	font-size: 0.9rem;
+}
+
+.githubView .repos .repo .forks > span {
+	font-weight: bold;
+}
+
+
+.githubView .repos .repo .stars {
+	font-size: 0.9rem;
+}
+
+.githubView .repos .repo .stars > span {
+	font-weight: bold;
+}
